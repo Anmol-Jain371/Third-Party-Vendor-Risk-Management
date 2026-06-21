@@ -1,0 +1,401 @@
+vendor_id,is_anomaly,anomaly_type,severity,expired_certifications,explanation
+VEND_001,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_002,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_003,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_004,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_005,0,NONE,NONE,NONE,Compliant vendor
+VEND_006,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_007,0,NONE,NONE,NONE,Compliant vendor
+VEND_008,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_009,0,NONE,NONE,NONE,Compliant vendor
+VEND_010,0,NONE,NONE,NONE,Compliant vendor
+VEND_011,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_012,0,NONE,NONE,NONE,Compliant vendor
+VEND_013,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_014,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_015,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_016,0,NONE,NONE,NONE,Compliant vendor
+VEND_017,0,NONE,NONE,NONE,Compliant vendor
+VEND_018,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_019,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_020,0,NONE,NONE,NONE,Compliant vendor
+VEND_021,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_022,0,NONE,NONE,NONE,Compliant vendor
+VEND_023,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_024,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_025,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_026,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_027,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_028,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_029,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_030,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_031,0,NONE,NONE,NONE,Compliant vendor
+VEND_032,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_033,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_034,0,NONE,NONE,NONE,Compliant vendor
+VEND_035,0,NONE,NONE,NONE,Compliant vendor
+VEND_036,0,NONE,NONE,NONE,Compliant vendor
+VEND_037,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_038,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_039,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_040,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_041,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_042,0,NONE,NONE,NONE,Compliant vendor
+VEND_043,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_044,0,NONE,NONE,NONE,Compliant vendor
+VEND_045,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_046,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_047,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_048,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_049,0,NONE,NONE,NONE,Compliant vendor
+VEND_050,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_051,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_052,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_053,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_054,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_055,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_056,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_057,0,NONE,NONE,NONE,Compliant vendor
+VEND_058,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_059,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_060,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_061,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_062,0,NONE,NONE,NONE,Compliant vendor
+VEND_063,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_064,0,NONE,NONE,NONE,Compliant vendor
+VEND_065,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_066,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_067,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_068,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_069,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_070,0,NONE,NONE,NONE,Compliant vendor
+VEND_071,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_072,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_073,0,NONE,NONE,NONE,Compliant vendor
+VEND_074,0,NONE,NONE,NONE,Compliant vendor
+VEND_075,0,NONE,NONE,NONE,Compliant vendor
+VEND_076,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_077,0,NONE,NONE,NONE,Compliant vendor
+VEND_078,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_079,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_080,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_081,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_082,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_083,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_084,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_085,0,NONE,NONE,NONE,Compliant vendor
+VEND_086,0,NONE,NONE,NONE,Compliant vendor
+VEND_087,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_088,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_089,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_090,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_091,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_092,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_093,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_094,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_095,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_096,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_097,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_098,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_099,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_100,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_101,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_102,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_103,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_104,0,NONE,NONE,NONE,Compliant vendor
+VEND_105,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_106,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_107,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_108,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_109,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_110,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_111,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_112,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_113,0,NONE,NONE,NONE,Compliant vendor
+VEND_114,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_115,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_116,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_117,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_118,0,NONE,NONE,NONE,Compliant vendor
+VEND_119,0,NONE,NONE,NONE,Compliant vendor
+VEND_120,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_121,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_122,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_123,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_124,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_125,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_126,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_127,0,NONE,NONE,NONE,Compliant vendor
+VEND_128,0,NONE,NONE,NONE,Compliant vendor
+VEND_129,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_130,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_131,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_132,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_133,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_134,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_135,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_136,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_137,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_138,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_139,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_140,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_141,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_142,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_143,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_144,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_145,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_146,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_147,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_148,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_149,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_150,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_151,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_152,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_153,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_154,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_155,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_156,0,NONE,NONE,NONE,Compliant vendor
+VEND_157,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_158,0,NONE,NONE,NONE,Compliant vendor
+VEND_159,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_160,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_161,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_162,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_163,0,NONE,NONE,NONE,Compliant vendor
+VEND_164,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_165,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_166,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_167,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_168,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_169,0,NONE,NONE,NONE,Compliant vendor
+VEND_170,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_171,0,NONE,NONE,NONE,Compliant vendor
+VEND_172,0,NONE,NONE,NONE,Compliant vendor
+VEND_173,0,NONE,NONE,NONE,Compliant vendor
+VEND_174,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_175,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_176,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_177,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_178,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_179,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_180,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_181,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_182,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_183,0,NONE,NONE,NONE,Compliant vendor
+VEND_184,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_185,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_186,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_187,0,NONE,NONE,NONE,Compliant vendor
+VEND_188,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_189,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_190,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_191,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_192,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_193,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_194,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_195,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_196,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_197,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_198,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_199,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_200,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_201,0,NONE,NONE,NONE,Compliant vendor
+VEND_202,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_203,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_204,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_205,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_206,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_207,0,NONE,NONE,NONE,Compliant vendor
+VEND_208,0,NONE,NONE,NONE,Compliant vendor
+VEND_209,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_210,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_211,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_212,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_213,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_214,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_215,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_216,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_217,0,NONE,NONE,NONE,Compliant vendor
+VEND_218,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_219,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_220,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_221,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_222,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_223,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_224,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_225,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_226,0,NONE,NONE,NONE,Compliant vendor
+VEND_227,0,NONE,NONE,NONE,Compliant vendor
+VEND_228,0,NONE,NONE,NONE,Compliant vendor
+VEND_229,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_230,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_231,0,NONE,NONE,NONE,Compliant vendor
+VEND_232,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_233,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_234,0,NONE,NONE,NONE,Compliant vendor
+VEND_235,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_236,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_237,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_238,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_239,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_240,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_241,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_242,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_243,0,NONE,NONE,NONE,Compliant vendor
+VEND_244,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_245,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_246,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_247,0,NONE,NONE,NONE,Compliant vendor
+VEND_248,0,NONE,NONE,NONE,Compliant vendor
+VEND_249,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_250,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_251,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_252,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_253,0,NONE,NONE,NONE,Compliant vendor
+VEND_254,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_255,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_256,0,NONE,NONE,NONE,Compliant vendor
+VEND_257,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_258,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_259,0,NONE,NONE,NONE,Compliant vendor
+VEND_260,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_261,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_262,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_263,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_264,0,NONE,NONE,NONE,Compliant vendor
+VEND_265,0,NONE,NONE,NONE,Compliant vendor
+VEND_266,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_267,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_268,0,NONE,NONE,NONE,Compliant vendor
+VEND_269,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_270,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_271,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_272,0,NONE,NONE,NONE,Compliant vendor
+VEND_273,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_274,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_275,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_276,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_277,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_278,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_279,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_280,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_281,0,NONE,NONE,NONE,Compliant vendor
+VEND_282,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_283,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_284,0,NONE,NONE,NONE,Compliant vendor
+VEND_285,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_286,0,NONE,NONE,NONE,Compliant vendor
+VEND_287,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_288,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_289,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_290,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_291,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_292,0,NONE,NONE,NONE,Compliant vendor
+VEND_293,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_294,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_295,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_296,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_297,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_298,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_299,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_300,0,NONE,NONE,NONE,Compliant vendor
+VEND_301,0,NONE,NONE,NONE,Compliant vendor
+VEND_302,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_303,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_304,0,NONE,NONE,NONE,Compliant vendor
+VEND_305,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_306,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_307,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_308,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_309,0,NONE,NONE,NONE,Compliant vendor
+VEND_310,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_311,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_312,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_313,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_314,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_315,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_316,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_317,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_318,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_319,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_320,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_321,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_322,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_323,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_324,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_325,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_326,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_327,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_328,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_329,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_330,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_331,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_332,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_333,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_334,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_335,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_336,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_337,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_338,0,NONE,NONE,NONE,Compliant vendor
+VEND_339,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_340,0,NONE,NONE,NONE,Compliant vendor
+VEND_341,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_342,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_343,0,NONE,NONE,NONE,Compliant vendor
+VEND_344,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_345,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_346,0,NONE,NONE,NONE,Compliant vendor
+VEND_347,0,NONE,NONE,NONE,Compliant vendor
+VEND_348,0,NONE,NONE,NONE,Compliant vendor
+VEND_349,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_350,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_351,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_352,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_353,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_354,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_355,1,EXPIRED_CERTIFICATION,HIGH,ISO27001,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_356,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_357,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_358,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_359,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_360,1,EXPIRED_CERTIFICATION,HIGH,SOC2 Type II,SOC2/ISO27001 expired on vendor with sensitive data access
+VEND_361,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_362,0,NONE,NONE,NONE,Compliant vendor
+VEND_363,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_364,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_365,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_366,0,NONE,NONE,NONE,Compliant vendor
+VEND_367,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_368,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_369,0,NONE,NONE,NONE,Compliant vendor
+VEND_370,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_371,0,NONE,NONE,NONE,Compliant vendor
+VEND_372,0,NONE,NONE,NONE,Compliant vendor
+VEND_373,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_374,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_375,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_376,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_377,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_378,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access
+VEND_379,0,NONE,NONE,NONE,Compliant vendor
+VEND_380,0,NONE,NONE,NONE,Compliant vendor
+VEND_381,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_382,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_383,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_384,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_385,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_386,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_387,0,NONE,NONE,NONE,Compliant vendor
+VEND_388,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_389,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_390,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_391,0,NONE,NONE,NONE,Compliant vendor
+VEND_392,1,CONTRACT_EXPIRED_ACTIVE_ACCESS,MEDIUM,NONE,"Contract ended, potential orphaned access"
+VEND_393,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_394,1,VENDOR_UNDER_INVESTIGATION,CRITICAL,NONE,Vendor currently under security investigation
+VEND_395,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_396,1,ELEVATED_RISK_VENDOR,LOW,NONE,Risk score 65-80 - increased monitoring
+VEND_397,0,NONE,NONE,NONE,Compliant vendor
+VEND_398,1,RECENTLY_BREACHED_VENDOR,MEDIUM,NONE,Breach in last 12 months (lower scope)
+VEND_399,1,HIGH_RISK_SCORE,HIGH,NONE,Risk score > 80/100
+VEND_400,1,BREACHED_VENDOR_HIGH_ACCESS,CRITICAL,NONE,Vendor breached in last 12mo + has PII/Financial access

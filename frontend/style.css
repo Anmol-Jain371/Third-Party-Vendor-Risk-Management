@@ -1,0 +1,316 @@
+/* ---------------------------------------------------
+   Vendor Risk Intelligence Landing Page Stylesheet
+   Modern Clean Light-Theme SaaS Dashboard Design
+--------------------------------------------------- */
+
+:root {
+    --color-indigo: #4F46E5;
+    --color-indigo-hover: #4338CA;
+    --color-indigo-light: #EEF2FF;
+    --color-slate: #0F172A;
+    --color-slate-hover: #1E293B;
+    --color-muted-slate: #4B5563;
+    --color-border: #E5E7EB;
+    --color-light-bg: #F9FAFB;
+    --color-white: #FFFFFF;
+    
+    --color-green: #10B981;
+    --color-amber: #D97706;
+    --color-red: #EF4444;
+}
+
+/* Global Reset & Core Styling */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color-white);
+    color: var(--color-slate);
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, .logo-text {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: -0.02em;
+    color: var(--color-slate);
+}
+
+/* Spacing Helpers */
+.py-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.fs-7 {
+    font-size: 0.8rem;
+}
+
+.fs-8 {
+    font-size: 0.75rem;
+}
+
+.tracking-widest {
+    letter-spacing: 0.12em;
+}
+
+.tracking-tight {
+    letter-spacing: -0.04em;
+}
+
+.text-indigo { color: var(--color-indigo) !important; }
+.text-green { color: var(--color-green) !important; }
+.text-amber { color: var(--color-amber) !important; }
+.text-red { color: var(--color-red) !important; }
+.text-muted-slate { color: var(--color-muted-slate) !important; }
+
+/* Sticky Top Navigation */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: var(--color-muted-slate) !important;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem !important;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: var(--color-slate) !important;
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 85vh;
+    padding-top: 140px;
+    padding-bottom: 80px;
+    background: radial-gradient(100% 100% at 50% 0%, #F5F7FA 0%, #FFFFFF 100%);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.15;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.pill-badge {
+    background-color: var(--color-indigo-light);
+    color: var(--color-indigo);
+    border: 1px solid rgba(79, 70, 229, 0.15);
+    padding: 6px 14px;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/* Premium Buttons */
+.btn-indigo {
+    background-color: var(--color-indigo);
+    color: var(--color-white) !important;
+    font-weight: 600;
+    border: 1px solid var(--color-indigo);
+    border-radius: 6px;
+    padding: 10px 24px;
+    transition: all 0.2s ease;
+}
+
+.btn-indigo:hover {
+    background-color: var(--color-indigo-hover);
+    border-color: var(--color-indigo-hover);
+    transform: translateY(-1px);
+}
+
+.btn-outline-slate {
+    border: 1px solid var(--color-border);
+    color: var(--color-slate);
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 10px 24px;
+    background-color: var(--color-white);
+    transition: all 0.2s ease;
+}
+
+.btn-outline-slate:hover {
+    background-color: var(--color-light-bg);
+    border-color: var(--color-slate);
+    color: var(--color-slate) !important;
+}
+
+/* Hero Visual Preview Card */
+.hero-visual-card {
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04) !important;
+}
+
+.status-indicator {
+    background-color: rgba(16, 185, 129, 0.1);
+    color: var(--color-green);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 50px;
+}
+
+/* Metrics Section */
+.metrics-section {
+    position: relative;
+    z-index: 5;
+}
+
+.metric-card-classic {
+    padding: 1rem 0;
+}
+
+.metric-number-classic {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    margin-bottom: 0.25rem;
+}
+
+.metric-label-classic {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+/* Features Modules Section */
+.feature-card-classic {
+    border-radius: 8px;
+    border-color: var(--color-border) !important;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.feature-card-classic:hover {
+    transform: translateY(-4px);
+    border-color: var(--color-indigo) !important;
+    box-shadow: 0 10px 25px rgba(79, 70, 229, 0.05);
+}
+
+.icon-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 1.25rem;
+}
+
+.icon-indigo { background-color: #EEF2FF; color: var(--color-indigo); }
+.icon-teal { background-color: #F0FDFA; color: #0D9488; }
+.icon-violet { background-color: #F5F3FF; color: #7C3AED; }
+.icon-emerald { background-color: #ECFDF5; color: #059669; }
+.icon-orange { background-color: #FFFBEB; color: #D97706; }
+.icon-red { background-color: #FEF2F2; color: #DC2626; }
+
+/* Ingestion Pipeline */
+.step-badge {
+    background-color: var(--color-indigo);
+    color: var(--color-white);
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.arch-card-classic {
+    border-color: var(--color-border) !important;
+    transition: border-color 0.2s ease;
+}
+
+.arch-card-classic:hover {
+    border-color: var(--color-indigo) !important;
+}
+
+/* Gallery Showcase */
+.gallery-card-classic {
+    border-color: var(--color-border) !important;
+    transition: all 0.3s ease;
+}
+
+.gallery-card-classic:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.03);
+    border-color: var(--color-indigo) !important;
+}
+
+.gallery-image-wrapper {
+    height: 150px;
+    overflow: hidden;
+    background-color: var(--color-light-bg);
+}
+
+.gallery-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* Business Outcomes */
+.roi-card-classic {
+    border-color: var(--color-border) !important;
+    background-color: var(--color-light-bg);
+}
+
+.roi-value {
+    letter-spacing: -0.04em;
+    line-height: 1;
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: var(--color-light-bg);
+}
+
+/* Responsive Fixes */
+@media (max-width: 991.98px) {
+    .hero-title {
+        font-size: 2.75rem;
+    }
+    .py-6 {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.25rem;
+    }
+    .metrics-section .border-end {
+        border-right: none !important;
+        border-bottom: 1px solid var(--color-border);
+        padding-bottom: 1.5rem;
+    }
+    .metrics-section .col-6:nth-child(n+3) .metric-card-classic {
+        padding-top: 1.5rem;
+    }
+    .metrics-section .col-6:nth-child(3) .metric-card-classic {
+        border-bottom: none !important;
+    }
+    .metrics-section .col-6:nth-child(4) .metric-card-classic {
+        border-bottom: none !important;
+    }
+}

@@ -683,27 +683,69 @@ ANCHOR_DATE = pd.to_datetime("2026-06-20")
 
 @st.cache_data
 def load_and_preprocess_data():
-    # Load raw CSVs
-    registry = pd.read_csv("data/vendor_registry.csv")
-    labels = pd.read_csv("data/vendor_labels.csv")
+    # Load raw CSVs (official files)
+    registry = pd.read_csv("data/vendor_registry_official.csv")
+    labels = pd.read_csv("data/vendor_labels_official.csv")
     
-    # Merge datasets on vendor_id
-    df = pd.merge(registry, labels, on="vendor_id", how="inner")
+    # Merge datasets: registry on vendor_id, labels on record_id
+    df = pd.merge(registry, labels, left_on="vendor_id", right_on="record_id", how="inner")
     
-    # Parse date columns
-    df['cert_expiry'] = pd.to_datetime(df['cert_expiry'])
-    df['contract_start'] = pd.to_datetime(df['contract_start'])
-    df['contract_end'] = pd.to_datetime(df['contract_end'])
+    # Align column names to what app.py expects:
+    # 'type' maps to 'vendor_type' (replacing underscore with space to make it look clean)
+    df['type'] = df['vendor_type'].str.replace('_', ' ')
     
-    # Precompute Expiration & Risk variables
-    df['is_cert_expired'] = df['cert_expiry'] < ANCHOR_DATE
+    # Parse certifications and cert_expiry from compliance_certifications
+    # Format is "GDPR:2026-01-02|ISO27001:2027-04-19|SOC2:2025-12-20"
+    certs_list = []
+    min_expiries = []
+    is_cert_expired_list = []
+    
+    for idx, row in df.iterrows():
+        comp_certs = str(row['compliance_certifications'])
+        if comp_certs and comp_certs != 'nan' and comp_certs != 'None':
+            # Parse certs
+            parts = comp_certs.split('|')
+            names = []
+            expiries = []
+            for part in parts:
+                if ':' in part:
+                    name, exp_str = part.split(':', 1)
+                    names.append(name.strip())
+                    try:
+                        exp_dt = pd.to_datetime(exp_str.strip())
+                        expiries.append(exp_dt)
+                    except Exception:
+                        pass
+                else:
+                    names.append(part.strip())
+            
+            certs_list.append(", ".join(names))
+            if expiries:
+                earliest_exp = min(expiries)
+                min_expiries.append(earliest_exp)
+                is_cert_expired_list.append(any(d < ANCHOR_DATE for d in expiries))
+            else:
+                min_expiries.append(pd.NaT)
+                is_cert_expired_list.append(False)
+        else:
+            certs_list.append("None")
+            min_expiries.append(pd.NaT)
+            is_cert_expired_list.append(False)
+            
+    df['certifications'] = certs_list
+    df['cert_expiry'] = min_expiries
+    df['is_cert_expired'] = is_cert_expired_list
+    
+    # Parse contract end date
+    df['contract_end'] = pd.to_datetime(df['contract_end_date'])
+    df['contract_start'] = df['contract_end'] - pd.Timedelta(days=365)
+    
     df['is_contract_expired'] = df['contract_end'] < ANCHOR_DATE
     
     # Define categorized risk score bucket
-    # High: >= 80, Medium: 50-79, Low: < 50
     df['risk_tier'] = pd.cut(
         df['risk_score'],
-        bins=[0, 49, 79, 100],
+        bins=[-1, 49, 79, 101],
         labels=['Low (<50)', 'Medium (50-79)', 'High (>=80)']
     )
     
